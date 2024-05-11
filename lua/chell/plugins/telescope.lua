@@ -40,7 +40,7 @@ return {
     nmap("<leader>fd", builtin.diagnostics, { desc = "Search [D]iagnostics" })
     nmap("<leader>fr", builtin.resume, { desc = "Search [R]esume" })
     nmap("<leader>f.", builtin.oldfiles, { desc = 'Search Recent Files ("." for repeat)' })
-    nmap("<leader><leader>", builtin.buffers, { desc = "[ ] Find existing buffers" })
+    nmap("<leader>fb", builtin.buffers, { desc = "[ ] Find existing buffers" })
     nmap("<leader>f/", function()
       builtin.live_grep({ grep_open_files = true, prompt_title = "Live Grep in Open Files" })
     end, { desc = "[S]earch [/] in Open Files" })

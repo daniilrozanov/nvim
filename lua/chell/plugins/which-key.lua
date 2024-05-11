@@ -9,7 +9,7 @@ return {
       ["<leader>t"] = { name = "ToggleTerm", _ = "which_key_ignore" },
       ["<leader>g"] = { name = "Git", _ = "which_key_ignore" },
       ["<leader>l"] = { name = "LSP", _ = "which_key_ignore" },
-      ["<leader><tab>"] = { name = "Tab pages", _ = "which_key_ignore" },
+      ["<tab>"] = { name = "Tab pages", _ = "which_key_ignore" },
       ["<leader>W"] = { name = "Swap windows", _ = "which_key_ignore" },
     })
     -- visual mode
