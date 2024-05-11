@@ -37,5 +37,7 @@ nmap("<tab>L", "<cmd>tablast<cr>", { desc = "Last Tab" })
 nmap("<tab>H", "<cmd>tabfirst<cr>", { desc = "First Tab" })
 nmap("<tab>l", "<cmd>tabnext<cr>", { desc = "Next Tab" })
 nmap("<tab>h", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
+nmap("<tab><", "<cmd>tabm -1<cr>", { desc = "Move Tab left" })
+nmap("<tab>>", "<cmd>tabm +1<cr>", { desc = "Move Tab right" })
 
 tmap("<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })

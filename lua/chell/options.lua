@@ -5,45 +5,33 @@ opt.relativenumber = true
 
 opt.mouse = "a"
 
--- Sync clipboard between OS and Neovim.
-opt.clipboard = "unnamedplus"
+opt.clipboard = "unnamedplus" -- Sync clipboard between OS and Neovim.
 
--- Enable break indent
-opt.breakindent = true
+opt.breakindent = true -- Enable break indent
 
--- Save undo history
-opt.undofile = true
+opt.undofile = true -- Save undo history
 
--- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
-opt.ignorecase = true
+opt.ignorecase = true -- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
 opt.smartcase = true
 
--- Keep signcolumn on by default
-opt.signcolumn = "yes"
+opt.signcolumn = "yes" -- Keep signcolumn on by default
 
--- Decrease update time
-opt.updatetime = 250
+opt.updatetime = 250 -- Decrease update time
 
--- Decrease mapped sequence wait time
-opt.timeoutlen = 300
+opt.timeoutlen = 300 -- Decrease mapped sequence wait time
 
--- Configure how new splits should be opened
-opt.splitright = true
+opt.splitright = true -- Configure how new splits should be opened
 opt.splitbelow = true
 
--- Sets how neovim will display certain whitespace characters in the editor.
-opt.list = true
+opt.list = true -- Sets how neovim will display certain whitespace characters in the editor.
 opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
--- Preview substitutions live
--- opt.inccommand = "split"
+-- opt.inccommand = "split" -- Preview substitutions live
 
--- Show which line your cursor is on
-opt.cursorline = true
+opt.cursorline = true -- Show which line your cursor is on
 
--- Minimal number of screen lines to keep above and below the cursor.
-opt.scrolloff = 10
+opt.scrolloff = 10 -- Minimal number of screen lines to keep above and below the cursor.
+opt.sidescrolloff = 5
 
--- Set highlight on search, but clear on pressing <Esc> in normal mode
-opt.hlsearch = true
+opt.hlsearch = true -- Set highlight on search
 opt.incsearch = true
