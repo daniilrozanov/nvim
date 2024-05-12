@@ -18,4 +18,8 @@ function utils.tmap(lhs, rhs, opts)
   utils.map("t", lhs, rhs, opts)
 end
 
+function utils.xmap(lhs, rhs, opts)
+  utils.map("x", lhs, rhs, opts)
+end
+
 return utils

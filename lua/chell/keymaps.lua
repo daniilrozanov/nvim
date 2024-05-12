@@ -12,6 +12,9 @@ nmap("<Esc>", "<cmd>nohlsearch<CR>")
 nmap("|", "<cmd>vsplit<cr>")
 nmap("\\", "<cmd>split<cr>")
 
+nmap("<BS>", "dh")
+nmap("<DEL>", "dl")
+
 -- diagnostic
 local diagnostic_goto = function(next, severity)
   local go = next and vim.diagnostic.goto_next or vim.diagnostic.goto_prev
@@ -40,4 +43,5 @@ nmap("<leader><tab>h", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
 nmap("<leader><tab><", "<cmd>tabm -1<cr>", { desc = "Move Tab left" })
 nmap("<leader><tab>>", "<cmd>tabm +1<cr>", { desc = "Move Tab right" })
 
+-- terminal
 tmap("<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
