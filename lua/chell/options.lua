@@ -35,3 +35,5 @@ opt.sidescrolloff = 5
 
 opt.hlsearch = true -- Set highlight on search
 opt.incsearch = true
+
+opt.background = "dark"
