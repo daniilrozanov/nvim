@@ -8,7 +8,7 @@ return {
   {
     "rest-nvim/rest.nvim",
     ft = "http",
-    dependencies = { "luarocks.nvim" },
+    dependencies = { "luarocks.nvim", "nvim-treesitter/nvim-treesitter" },
     config = function()
       require "custom.rest"
     end,
