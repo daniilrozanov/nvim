@@ -93,7 +93,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
     vim.keymap.set("n", "gr", vim.lsp.buf.references, { buffer = 0 })
     vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { buffer = 0 })
     vim.keymap.set("n", "gT", vim.lsp.buf.type_definition, { buffer = 0 })
-    vim.keymap.set("n", "K", vim.lsp.buf.hover, { buffer = 0 })
     vim.keymap.set("n", "<leader>lr", vim.lsp.buf.rename, { buffer = 0 })
     vim.keymap.set("n", "<leader>la", vim.lsp.buf.code_action, { buffer = 0 })
     vim.keymap.set("n", "<leader>ls", builtin.lsp_document_symbols, { desc = "[D]ocument [S]ymbols" })
